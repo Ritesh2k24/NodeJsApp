@@ -4,11 +4,6 @@ on:
   push:
     branches: [ Develope ]
 
-env:
-  # we'll set them dynamically
-  # DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/nodejsapp
-  # DOCKER_TAG: latest
-
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
