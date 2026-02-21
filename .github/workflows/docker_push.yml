@@ -5,7 +5,7 @@ on:
     branches: [ Develope ]
 
 env:
-  DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/NodeJsApp
+  DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/nodejsapp
   DOCKER_TAG: latest
 
 jobs:
